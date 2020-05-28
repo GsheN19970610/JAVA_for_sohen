@@ -7,8 +7,8 @@ This is as the basis of learning Niagara N4 Framework<br>
 目标于六月20日前学完<br>
 deadline：2020-7-6<br>
 
-    editor：GsheN<br>
-    Wechat：gshensisi<br><br><br>
+    editor：GsheN
+    Wechat：gshensisi
     
     
 Thank `You` ，good `luck`.
