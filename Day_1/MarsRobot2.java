@@ -17,7 +17,7 @@ public class MarsRobot2 {
             System.out.println("Temperature: " + temperature);
         }
 
-        public static void main(String[] arguments) {
+        public static void main(String[] args) {
             MarsRobot2 spirit = new MarsRobot2();           //创建一个全新的MarsRobots2型变量 spirit
 
             spirit.status = "exploring";
@@ -39,7 +39,7 @@ public class MarsRobot2 {
             spirit.checkTemperature();
             spirit.showAttributes();
             MarsRobot2 opportunity = new MarsRobot2();      //创建一个全新的MarsRobot2型变量
-            System.out.println("\nSpirit:");
+            System.out.println("\nSpirit: ");
 
             opportunity.status = "exploring";
             opportunity.speed = 4;
