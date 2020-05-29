@@ -1,6 +1,6 @@
 package Day_3;
 
-import java.util.StringTokenizer;       //将
+import java.util.StringTokenizer;       //将一个字符串分为一系列短字符串或者标记（token）
 
 class TokenTester {
 
