@@ -30,7 +30,7 @@ public class ComicBooks2 {
         comix[3].setPrice((Float) quality.get(comix[3].condition));
         comix[4] = new Comic("Night Nurse", "1", "coverless", 22.00F);
         comix[4].setPrice((Float) quality.get(comix[4].condition));
-        for (Comic comix1 : comix) {
+        for (Comic comix1 : comix) {                 //comix1 接收每个comic的值
             System.out.println("Title: " + comix1.title);
             System.out.println("Issue: " + comix1.issueNumber);
             System.out.println("Condition: " + comix1.condition);
