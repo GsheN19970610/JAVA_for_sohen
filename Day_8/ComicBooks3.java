@@ -8,7 +8,7 @@ public class ComicBooks3 {
     }
 
     public static void main(String[] arguments) {
-        // set up hash map
+        
         HashMap quality = new HashMap();
         quality.put(Condition.PRISTINE_MINT, 5.00F);            //枚举引用
         quality.put(Condition.MINT, 3.00F);
@@ -18,7 +18,7 @@ public class ComicBooks3 {
         quality.put(Condition.GOOD, 0.50F);
         quality.put(Condition.POOR, 0.25F);
         quality.put(Condition.COVERLESS, 0.10F);
-        // set up collection
+        
         Comic3[] comix = new Comic3[5];
         comix[0] = new Comic3("Amazing Spider-Man", "1A", Condition.VERY_FINE,
                 5_000.00F);
@@ -32,7 +32,7 @@ public class ComicBooks3 {
         comix[3].setPrice( (Float) quality.get(comix[3].condition) );
         comix[4] = new Comic3("Night Nurse", "1", Condition.COVERLESS, 22.00F);
         comix[4].setPrice( (Float) quality.get(comix[4].condition) );
-        for (Comic3 comix1 : comix) {
+        for (Comic3 comix1 : comix) {                             //comix1 接收每个comic的值
             System.out.println("Title: " + comix1.title);
             System.out.println("Issue: " + comix1.issueNumber);
             System.out.println("Condition: " + comix1.condition);
