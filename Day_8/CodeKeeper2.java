@@ -22,7 +22,7 @@ public class CodeKeeper2 {
         for (int j = 0; j < userCodes.length; j++){
             addCode(userCodes[j]);
         }
-        for (String code : list){                       //增强型for循环，将code的元素赋值给list
+        for (String code : list){                       //增强型for循环，code接收每个list的值
             System.out.println(code);
         }
 
