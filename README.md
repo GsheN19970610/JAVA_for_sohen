@@ -7,7 +7,6 @@ This is as the basis of learning Niagara N4 Framework<br>
 deadline：2020-7-6<br>
 
     editor：GsheN
-    Wechat：gshensisi
     
     
 Thank `You` ，good `luck`.
